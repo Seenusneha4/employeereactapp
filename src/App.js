@@ -6,6 +6,7 @@ import Addemployee from './Components/Addemployee';
 import Searchemployee from './Components/Searchemployee';
 import Header from './Components/Header';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Viewemployee from './Components/Viewemployee';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
      <Routes>
      <Route path="/" exact element={<Addemployee/>}/>
      <Route path="/search" exact element={<Searchemployee/>}/>
+     <Route path="/view" exact element={<Viewemployee/>}/>
 
 
 
